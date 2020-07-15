@@ -17,7 +17,5 @@
   (interactive)
   (if (directory-files (expand-file-name default-directory) t "\\.[Rr]proj$")
       (set_ess_indent_proj)
-    (message "R Project file not found. Keep indentation at: %s." ess-indent-level))
+    (message "R Project file not found."))
   )
-
-(define-key ess-mode-map (kbd "M-`") 'ess_read_proj)
