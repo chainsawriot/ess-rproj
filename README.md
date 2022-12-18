@@ -8,9 +8,9 @@ This elisp project seeks for .Rproj file in the current directory or the base di
 
 ## Installation
 
-Download `ess_rproj.el` somewhere. Put this into your configuration file.
+Download `ess-rproj.el` somewhere. Put this into your configuration file.
 
 ```lisp
-(load-file "ess_rproj.el")
+(load-file "ess-rproj.el")
 (add-hook 'ess-mode-hook #'ess-rproj)
 ```
