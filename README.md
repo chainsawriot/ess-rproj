@@ -12,5 +12,4 @@ Download `ess-rproj.el` somewhere. Put this into your configuration file.
 
 ```lisp
 (load-file "ess-rproj.el")
-(add-hook 'ess-mode-hook #'ess-rproj)
 ```
